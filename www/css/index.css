@@ -1,0 +1,122 @@
+body {
+	margin: 0px;
+	padding: 20px 0;
+	font-size: 18px;
+	font-family: "Helvetica Neue Ligth", "Helvetica Neue", Helvetica, Arial, "Lucida Grande";
+	font-weight: 300;
+}
+
+.header{
+	padding: 0 10px;
+	color: #666;
+	background-color: #EEE;
+	text-align: center;
+	height: 48.4px;
+	line-height: 48.4px;
+}
+
+.footer{
+	padding: 5px;
+	font-style: italic;
+	font-size: small;
+	text-align: center;
+}
+
+#foto{
+	min-height: 400px;
+	border: 1px solid;
+	margin: 1%;
+	box-sizing: border-box;
+	width: 98%;
+}
+
+.button-container{
+	margin: 1rem;
+	text-align: center;
+}
+
+.input-container{
+	margin: 1rem;
+	text-align: center;
+}
+
+.button{
+	border: 1px solid;
+	color: #FFF;
+	padding: 10px;
+}
+
+#button-action{
+	font-size: large;
+	border-radius: 10px;
+	background-color: #FD4140;
+}
+
+#button-galery{
+	font-size: large;
+	border-radius: 10px;
+	background-color: #93BA3F;
+}
+
+#button-analizar{
+	font-size: medium;
+	border-radius: 10px;
+	background-color: #04bfbf;
+}
+
+#button-dataset{
+	font-size: medium;
+	border-radius: 10px;
+	background-color: #f29544;
+}
+
+#button-cerrar-R{
+	font-size: large;
+	border-radius: 10px;
+	background-color: #FD4140;
+}
+
+#cargando {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: block;
+    opacity: 0.8;
+    background-color: #fff;
+    z-index: 99;
+    text-align: center;
+}
+
+#respondiendo {
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: block;
+    opacity: 1;
+    background-color: #fff;
+    z-index: 99;
+    text-align: center;
+}
+
+#cargandoImg{
+    height: 75%;
+    width: 100%;
+    vertical-align: middle;
+    opacity: 1.0;
+}
+
+#cargandoTx{
+    color: #084de2;
+    opacity: 1.0;
+}
+
+#respuesta{
+    width: 100%;
+    vertical-align: middle;
+    opacity: 1.0;
+}
